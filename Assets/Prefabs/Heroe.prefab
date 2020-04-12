@@ -14,6 +14,8 @@ GameObject:
   - component: {fileID: 1821784872}
   - component: {fileID: 7625201491156210045}
   - component: {fileID: 2652457710156364563}
+  - component: {fileID: 6655939518072788218}
+  - component: {fileID: 6547635180569847719}
   m_Layer: 10
   m_Name: Heroe
   m_TagString: Untagged
@@ -166,3 +168,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttomJump: {fileID: 0}
   jumpForce: 13
+--- !u!114 &6655939518072788218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845805238333521864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d90c4baa66d94bf408f38fd38a36d03b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6547635180569847719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845805238333521864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dacbde5bf96d7d4da049ba72cde6c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

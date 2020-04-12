@@ -45,13 +45,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Game\BGLooper.cs" />
-     <Compile Include="Assets\Scripts\Game\BGScaler.cs" />
-     <Compile Include="Assets\Scripts\Game\EnemieMov.cs" />
-     <Compile Include="Assets\Scripts\Game\GameControllers.cs" />
-     <Compile Include="Assets\Scripts\Game\Menu\MenuController.cs" />
-     <Compile Include="Assets\Scripts\Game\PlayerJump.cs" />
-     <Compile Include="Assets\Scripts\HelloWorld.cs" />
+     <Compile Include="Assets\Scripts\BackGround Scripts\BGLooper.cs" />
+     <Compile Include="Assets\Scripts\BackGround Scripts\BGScaler.cs" />
+     <Compile Include="Assets\Scripts\EnemyScripts\EnemieMov.cs" />
+     <Compile Include="Assets\Scripts\Logic Scripts\CollectorScript.cs" />
+     <Compile Include="Assets\Scripts\Logic Scripts\GameControllers.cs" />
+     <Compile Include="Assets\Scripts\Logic Scripts\HelloWorld.cs" />
+     <Compile Include="Assets\Scripts\Logic Scripts\MenuController.cs" />
+     <Compile Include="Assets\Scripts\Logic Scripts\PopupController.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerAnimation.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerDead.cs" />
+     <Compile Include="Assets\Scripts\PlayerScripts\PlayerJump.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

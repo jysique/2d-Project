@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Elements
   - Enemy
+  - Collector
+  - Zombie
   layers:
   - Default
   - TransparentFX
