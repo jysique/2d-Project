@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Background
   - Enemy
+  - Cloud
+  - Deadly
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - 
   - BG
-  - 
-  - 
+  - Cloud
+  - Player
   - 
   - 
   - 
@@ -54,4 +56,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 546115123
+    locked: 0
+  - name: Cloud
+    uniqueID: 2286430831
     locked: 0

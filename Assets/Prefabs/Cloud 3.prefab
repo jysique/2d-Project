@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 1539493616500131175}
   - component: {fileID: 3558889311575560869}
   - component: {fileID: 2360668610951431476}
-  m_Layer: 0
+  - component: {fileID: 4517305674027297629}
+  m_Layer: 9
   m_Name: Cloud 3
-  m_TagString: Enemy
+  m_TagString: Cloud
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,9 +69,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -2008536465
+  m_SortingLayer: 5
+  m_SortingOrder: 3
   m_Sprite: {fileID: 8809548645194950162, guid: 228dad7fdf9f15a4f9cf077965d822f1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,9 +109,7 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.84, y: 0.015}
-      - {x: 0.85999995, y: 0.055}
-      - {x: 0.85999995, y: 0.16499999}
+    - - {x: 0.85999995, y: 0.16499999}
       - {x: 0.82, y: 0.185}
       - {x: 0.66999996, y: 0.205}
       - {x: 0.52, y: 0.21499999}
@@ -120,11 +119,24 @@ PolygonCollider2D:
       - {x: -0.44, y: 0.21499999}
       - {x: -0.78, y: 0.195}
       - {x: -0.85999995, y: 0.13499999}
-      - {x: -0.85999995, y: 0.024999999}
-      - {x: -0.68, y: -0.065}
-      - {x: -0.51, y: -0.095}
-      - {x: -0.24, y: -0.21499999}
-      - {x: 0.19, y: -0.21499999}
-      - {x: 0.32, y: -0.175}
-      - {x: 0.59999996, y: -0.065}
-      - {x: 0.65, y: 0.005}
+--- !u!50 &4517305674027297629
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8947954120516251182}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

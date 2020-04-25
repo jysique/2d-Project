@@ -52,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking",true);
         }else{
             animator.SetBool("isWalking",false);
+            body2D.velocity = Vector2.zero;
         }
         body2D.AddForce(new Vector2(forceX,0));
     }

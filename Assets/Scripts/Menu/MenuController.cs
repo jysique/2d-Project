@@ -16,7 +16,6 @@ public class MenuController : MonoBehaviour
     void Start()
     {
         btnOff.gameObject.SetActive(false);
-
         btnStart.onClick.AddListener(()=>goGame());
         btnHighScore.onClick.AddListener(()=>ShowHighScore());
         btnOptions.onClick.AddListener(()=>ShowOptions());
@@ -40,10 +39,12 @@ public class MenuController : MonoBehaviour
 
     }
     void onSound(){
+        MusicController.instance.PlayMusic(false);
         btnOn.gameObject.SetActive(false);
         btnOff.gameObject.SetActive(true);
     }
     void offSound(){
+        MusicController.instance.PlayMusic(true);
         btnOn.gameObject.SetActive(true);
         btnOff.gameObject.SetActive(false);
     }
